@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace HashTableProblems
 {
 
-    //creating the MapNode to add keyvalue pair to linkedlist at position given by hash
+
+    //Creating the MapNode to add keyvalue pair to linkedlist at position given by hash
     public class MyMapNode<K, V>
     {
         private readonly int size;
@@ -68,7 +69,8 @@ namespace HashTableProblems
         public k Key { get; set; }
         public v Value { get; set; }
     }
-
 }
-   
+
+
+
 
